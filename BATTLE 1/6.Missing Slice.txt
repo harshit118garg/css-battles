@@ -1,0 +1,43 @@
+<div class="wrapper">
+  <div class="box one"></div>
+  <div class="box two"></div>
+  <div class="box three"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #E3516E;
+  }
+  ..wrapper {
+    position: relative;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+  }
+  .one {
+    position: absolute;
+    background : #51B5A9;
+    top: 50px;
+    left: 100px;
+    border-top-left-radius: 100%;
+  }
+  .two {
+    position: absolute;
+    background : #FADE8B;
+    top: 50px;
+    left: 200px;
+    border-top-right-radius: 100%;
+  }
+  .three {
+    position: absolute;
+    background : #F7F3D7;
+    top: 150px;
+    left: 100px;
+    border-bottom-left-radius: 100%;
+  }
+</style>

@@ -1,0 +1,44 @@
+<div class="wrapper">
+  <div class="box left"></div>
+  <div class="box center"></div>
+  <div class="box right"></div>
+</div>
+<style>
+  * {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #62306D;
+  }
+  .wrapper {
+    position: relative;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  .left {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .center {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+  .right {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+</style>

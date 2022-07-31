@@ -1,0 +1,48 @@
+<div class="wrapper">
+  <div class="box sp1"></div>
+  <div class="box sp2"></div>
+  <div class="box sp3"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #0B2429;
+  }
+  wrapper {
+    position: relative;
+  }
+  .box {
+    height: 120px;
+    width: 120px;  
+  }
+  .sp1 {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    background: #F3AC3C;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .sp2 {
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    background: #998235;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .sp3 {
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    background: #F3AC3C;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+</style>
